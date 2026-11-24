@@ -1,0 +1,12 @@
+#!name = AltStore Loopback
+#!desc = 代替 LocalDevVPN，反射 10.7.0.1 回本机，供 AltStore Remote 刷新使用
+#!author = local
+#!loon_version = 3.5.3(1007)
+#!tag = 工具,AltStore
+
+[General]
+ipv6-vif = off
+include-tun = 10.7.0.1/32
+
+[IP Rewrite]
+10.7.0.1 = reflect
