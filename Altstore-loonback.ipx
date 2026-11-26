@@ -6,7 +6,7 @@
 
 [General]
 ipv6-vif = off
-tun-included-routes = %INSERT% 10.7.0.1/32
+tun-included-routes = 10.7.0.1/32
 
 
 [IP Rewrite]
