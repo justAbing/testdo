@@ -5,7 +5,7 @@
 #!tag = 工具,AltStore
 
 [General]
-ipv6-vif = disabled
+ipv6-vif = off
 tun-included-routes = %INSERT% 10.7.0.1/32
 
 
